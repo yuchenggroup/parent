@@ -8,6 +8,14 @@ MyBatis Parent
 
 ![mybatis-parent](http://mybatis.github.io/images/mybatis-logo.png)
 
-MyBatis-Parent is the MyBatis parent POM which has to be inherited by all MyBatis modules.
+MyBatis-Parent 是所有 MyBatis modules 都需要继承和依赖的 MyBatis parent POM .
 
 
+在仓库中不存在,  install 到本地即可:
+
+	mvn clean install -DskipTests
+
+
+>**注意:** 需要使用 MAVEN 3.0.5 及以上版本。 
+>
+>下载地址: [http://maven.apache.org/download.cgi](http://maven.apache.org/download.cgi)
